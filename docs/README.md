@@ -564,7 +564,8 @@ const url = `${domain}${s}${strMediaMid}${e}?guid=${guid}&vkey=${vkey}&fromtag=8
 
 参数：
 
-`songmid`: 必填
+`songmid`: 与 `songid` 两者选其一 
+`songid` : 与 `songmid` 两者选其一
 
 这个接口包含了很多的歌曲信息，包括歌手、专辑、语种、曲风等，但是不包含歌词，`songinfo.data.track_info.album.mid` 为专辑的 mid，
 下面为专辑封面图片的路径，在搜索接口中也能获取到这个参数。
